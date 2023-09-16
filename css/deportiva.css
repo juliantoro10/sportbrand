@@ -1,0 +1,462 @@
+.cont-menu{
+	background-color:#1b2336;
+	padding: 7px 0px;
+
+}
+
+body{
+	margin: 0px;
+    background-color: cadetblue;
+}
+
+/*pseudo elementos*/
+
+.lista1{
+	display: inline-block;
+	width: 50%;
+	margin:0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	vertical-align: middle;
+
+} 
+
+.lista1 li{
+	display: inline-block;
+    color:white;
+    margin-left: 70px;
+    font-size:90px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lista1 li a{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.lista2 {
+	display: inline-block;
+	width: 49%;
+	margin:0px;
+	padding: 0px;
+	text-align: right;
+	padding-right: 80px;
+	box-sizing: border-box;
+	vertical-align: middle;
+
+}
+
+.lista2 li{
+	display: inline-block;
+	margin-left: 35px;
+	
+}
+.lista2 li img{
+	filter: invert(1);
+}
+
+.menu-ppl{
+	margin: 8px auto;
+    display: table;
+    padding: 0px;
+    padding-right: 30px;
+}
+
+.menu-ppl li a:hover {
+    color: black;
+    background-color: #1b2336;
+
+}
+
+.menu-ppl li{
+	display: inline-block;
+    margin: 0px 18px;
+    vertical-align: middle;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #1b2336;
+    letter-spacing: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu-ppl li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #1b2336;    
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;    
+	text-decoration: none;
+}
+.menu-ppl li a:hover {
+    color: white;
+}
+.logo{
+	width: 7%;
+    top: 3px;
+    left: 0px;
+	position: absolute;
+}
+
+.nav-menu-ppal{	
+	display: block;
+    margin: auto;
+    position: relative;
+    padding: 30px 0px;
+    margin-right: 60px;
+    
+   
+}
+
+.btn-reserva {
+    position: absolute;
+    top: 32px;
+    right: 5%;
+    display: table;
+    font-size: 20px;
+    color:black;
+    background-color:#707070;
+    border-radius: 20px;
+    padding: 6px 19px;
+    font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #707070;
+}
+
+ul.sublista {
+    position: absolute;
+    top: 63px;
+    left: -26px;
+    background-color: rgba(255,255,255,0.80);
+    padding: 10px 20px;
+    text-align: left !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+ul.sublista li {
+    padding: 4px 30px 4px 0px;
+    margin: 0px;
+    border-bottom: 1px solid #fff;
+}
+
+.video video{
+    width: 100%;
+    height:auto;
+  
+}
+
+.cuadro{    
+    vertical-align: text-top;  
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cuadro.cuadro1{
+    background-color: darkslategray;    
+    color: #ffffff
+}
+
+
+.separador-video{
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+.btn-principal a {       
+    text-decoration: none !important;    
+    color: #fff;
+    text-align: center;
+}
+
+.btn-principal:hover {       
+    color: #fff;
+}
+
+.seccion-botones{
+    display:flex;
+    text-align: center;
+    
+}
+
+.btn-principal.btn1 {   
+    background-color: black;
+    color: #fff;    
+}
+
+.btn-principal.btn2 {   
+    background-color: black;    
+    color: #fff;    
+}
+.men {
+	background-color: #fff;
+	padding-top: 40px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenedor {
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.agregar-al-carro {
+	background-color: #504e4e;
+	color: #fff;
+	width: 100% !important;
+	padding: 4px 20px;
+	margin-top: 20px;
+	border-radius: 15px;
+	border: none;
+	margin-bottom: 12px;
+}
+.texto-negro{
+	font-weight: 200;
+	color: black;
+	font-size: 15px;	
+	font-family: "Inter",sans-serif;
+}
+.titulo-img{
+    font-weight: 560;	
+    font-size: 20px;
+}
+.card-coleccion2{
+    max-width: 100%;
+}
+.card-coleccion {
+    display: flex ;
+    flex-direction: column;
+    background-color: #707070;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center
+
+}
+.card-coleccion img {
+    height: 300px;
+    width: 300px;
+    object-fit:unset;
+    border-radius: 10px;
+}
+.card-coleccion h4 {
+    margin: 10px;
+}
+.ropa-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: #1b1c36;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.producto-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.producto-flex .producto-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.precio {
+    background-color: #1b1c36;
+    color: white;
+    padding: 20px;
+    max-width: 100px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.map{
+    display: flex;
+    margin: 30px;
+    margin-left: 90px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 90%;
+    height: 900px;
+    animation: banner 30s infinite linear alternate;
+    background-size: 100% 100% ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-left: 90px;
+    flex-direction: column;
+    
+}  
+@keyframes banner{   
+    0%, 10%{
+        background-image: url(../JS/bannerr1.jpg);
+    }
+    20%, 35%{
+        background-image: url(../JS/bannerr2.jpg);
+    }
+    30%, 50%{
+        background-image: url(../JS/bannerr3.jpg);
+    }
+    65%, 100%{
+        background-image: url(../JS/bannerr4.jpg);
+    }
+}
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0,0,0);
+}
+.info{
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+.info h1{
+    color:white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.info p{
+    color:white;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.info a{
+    color: black;
+    text-decoration: none;
+    background:white;
+    padding: 16px 37px ;
+    display:inline-block;
+    border-radius: 50px;
+}
+.content {
+    max-width: 1000px;
+    margin: 0 auto
+}
+.parrafos-partidos {
+    font-size: 60px ;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1b2336;
+    margin-bottom: 0;
+    padding-top: 20px;
+    margin-left: 90PX;
+    margin-right: 40px;
+    color: white;
+}
+.partidos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    gap: 46px;
+    background-color: #707070;
+    margin-left:90PX;
+    margin-right: 40px;
+    color: black;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.image{
+    width: 500px;
+    height: auto;
+}
+.titmap{
+    color: black;
+   font-size: 28px;
+   text-align: center;
+   padding: 15px;
+   width: 300px;
+   height: 300px;
+   
+}
+.ol{
+    width: 600px;
+    height: 450px;
+    padding-left: 20px;
+}
+.iman{
+    width: 620px;
+    height: 450px;
+    padding-left: 30px;
+}
+.piepagina{
+    width:100%;
+    background-color:#0a141d ;
+}
+.piepagina .pie1{
+    width: 10%;
+    max-width: 1200px;
+    margin:10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px 0px;
+
+}
+.piepagina .pie1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piepagina .pie1 .box figure img{
+width: 250px;
+
+}
+.piepagina .pie1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.piepagina .pie1 .box p{
+    color: white;
+    margin-bottom: 10px;
+}
+.piepagina .pie1 .redsocial{
+    display: flex;
+    line-height: 45px;
+    color: white;
+    margin-right: 90px;
+    gap: 20px;
+    
+  
+}
